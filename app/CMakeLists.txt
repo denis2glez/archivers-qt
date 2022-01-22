@@ -21,7 +21,11 @@ find_package(
     COMPONENTS Widgets
     REQUIRED)
 
-set(PROJECT_SOURCES main.cpp arch_window.h arch_window.cpp arch_window.ui)
+set(PROJECT_SOURCES 
+    main.cpp
+    arch_window.h arch_window.cpp arch_window.ui
+    compress_dialog.h compress_dialog.cpp compress_dialog.ui
+)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(archivers-qt MANUAL_FINALIZATION ${PROJECT_SOURCES})
