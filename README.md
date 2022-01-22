@@ -1,6 +1,6 @@
 ## About
-A Qt file archiver/compressor based on libarchive.
-
+A simple file archiver/compressor based on libarchive using Qt and aiming to promote the use of open
+standards. 
 ## Prerequisites
 
 You need to have the following dependencies installed
