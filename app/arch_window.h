@@ -15,8 +15,8 @@ class ArchWindow : public QMainWindow {
     explicit ArchWindow(QWidget *parent = nullptr);
     ~ArchWindow();
 
-private slots:
-    void on_listView_clicked(const QModelIndex &index);
+//private slots:
+//    void on_treeView_clicked(const QModelIndex &index);
 
   private:
     Ui::ArchWindow *ui;
